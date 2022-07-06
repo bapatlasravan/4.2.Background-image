@@ -1,0 +1,290 @@
+<html>
+<head><title>Background-image</title>
+<link rel="stylesheet" href="D:\CSS\CSS external styles/h1.css">
+<link rel="stylesheet" href="D:\CSS\CSS external styles/h2.css">
+<style>
+#one{
+background-image:url("https://bit.ly/3byQkuF");
+background-repeat:repeat-x;
+}
+#two{
+background-image:url("https://bit.ly/3byQkuF");
+background-repeat:repeat-y;
+}
+
+#three{
+background-image:url("https://bit.ly/3byQkuF");
+background-repeat:repeat-y;
+}
+#four{
+background-image:url("https://bit.ly/3byQkuF");
+background-repeat:repeat-y;
+background-position:top right;
+}
+#five {
+  background-image: url("https://bit.ly/3byQkuF");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+.c{
+
+	background-color:yellow;
+	color:red;
+}
+
+#six {
+  background-image: url("https://bit.ly/3byQkuF");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+}
+</style>
+</head>
+<body>
+	<h1><u><center>Background-image</center></u></h1>
+	
+		<p>The background-image property specifies an image to use as the background of an element.
+		By default, the image is repeated so it covers the entire element.there are three propertes
+		for background image, they are:</p>
+			<li>Background-repeat</li>
+			<li>Background-position</li>
+			<li>Background-attachment</li>
+
+	<h2><u>=>Background-repeat:-</u></h2>
+		<p>By default, the background-image property repeats an image both horizontally and vertically.
+		Some images should be repeated only horizontally or vertically, or they will look strange</p>
+		<h3><u>Example:-</u></h3>
+		<p id="one">here we are adding the image in the x-axis, the syntax for this was:<br>
+			selector{<br>
+				backgroud-image: url("Image address")<br>
+				background-repeat:repeat-x (or)<br>
+						 :repeat-y (or)<br>
+						 :no-repeat</p> 
+						}<br>
+			<hr><center>Here we are changing the position of image to y-xais</center><hr>
+
+		<p id="two">here we are adding the image in the y-axis, the syntax for this was:<br>
+			selector{<br>
+				backgroud-image: url("Image address")<br>
+				background-repeat:repeat-y (or)<br>
+						 :repeat-x (or)<br>
+						 :no-repeat</p> 
+						}<br>
+			<hr><center>Here we are changing the repeat to no repeat. so, image cant repeat</center><hr>
+
+		<p id="three">here we are adding the image in the no-repeat, the syntax for this was:<br>
+			selector{<br>
+				backgroud-image: url("Image address")<br>
+				background-repeat::no-repeat (or)<br>
+						 :repeat-x (or)<br>
+						 :repeat-y  </p> <hr><hr>
+						}<br>
+
+	<h2><u>=>Background-position:-</u></h2>
+		
+		<p>The background-position property is used to specify the position of the background image.<p>
+			selector{<br>
+				backgroud-image: url("Image address")<br>
+				background-position:top left (or)<br>
+				                  :top right (or)<br>
+				.                 :bottom left (or)<br>
+				                  :bottom right (or)<br>
+				                  :center  e.t.c<br>
+						}<br>
+		<h3><u>Example:-</u></h3>Here we are changing the position of the image to top right
+			selector{<br>
+				backgroud-image: url("Image address")<br>
+				background-position:top left (or)<br>
+		<p id="four">LINE 1
+		LINE 1<br>
+		LINE 2<br>
+		LINE 3<br>
+		LINE 4<br>
+		LINE 5<br>
+		LINE 6<br>
+		LINE 7<br>
+		LINE 8</p><hr><ht>
+	<h2><u>=>Background-attachment:-</u></h2>
+		<p>The background-attachment property specifies whether the background image should scroll or be fixed 
+		(will not scroll with the rest of the page):syntax for the background image was:</p>
+			selector{<br>
+				backgroud-image: url("Image address")<br>
+				background-attachement:fixed (or) scroll<br>
+
+			<hr><center><p class="c">Here Background image is fixed</p></center><hr>
+
+			<p id="five">
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br>
+			The background-image is fixed. Try to scroll down the page.<br></p>
+
+			<hr><center><p class="c">Here Background image is not fixed it is in scroll</p></center><hr>
+
+			<p id="six">
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br>
+			The background-image scrolls. Try to scroll down the page.<br></p>
+
+
+
+
+			<hr><Hr><center>**************************************</center><hr><hr>
+
+
+
+</body>
+<html>
